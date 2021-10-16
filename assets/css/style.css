@@ -1,0 +1,100 @@
+/* navbar */
+.navbar-brand {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 1000;
+  font-size:30px;
+}
+.cari-l {
+  display:none;
+}
+.jumbotron{
+  background-image: url(../img/background.png);
+  background-size:cover;
+  height: 500px;
+}
+.get{
+  margin-top:80px;
+  font-weight: 500;
+  font-size:30px;
+  margin-left:20px;
+}
+.info{
+  background-color: aqua;
+}
+.judul{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.img-thumbnail{
+  height:275px;
+  width: 275px;
+}
+
+/* CUSTOM */
+/* .custom {
+  background-color: #ebebeb;
+} */
+
+#menucustom{
+  padding: 0%;
+  background-color: white;
+  border: none;
+  border-width: 2px;
+  border-color: #e2dfdf;
+}
+
+button{
+  background-color: rgb(226, 226, 226);
+  color: black;
+  border: none;
+}
+
+.active{
+  background-color: #6c757d;
+  color: white;
+}
+
+.button i{
+  color: grey;
+}
+
+.active i{
+  color: white;
+}
+
+#dataukuran .button-ukuran{
+  width: 50px;
+}
+
+@media (min-width: 992px) {
+  .get{
+    margin-left:100px;
+  }
+  .garis{
+    display: block;
+  }
+  .kiri{
+    margin-left:50px;
+  }  
+  .nav-link{
+    text-transform: uppercase;
+  }
+  .nav-link:hover{
+    text-decoration: underline;
+    text-shadow: 1px 1px 0.7;
+  }
+  .cari-l {
+    display: block;
+  }
+  .cari {
+    display:none;
+  }
+  .judul{
+    font-size: 35px;
+    font-weight: 500;
+  }
+  .info{
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+}

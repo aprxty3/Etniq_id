@@ -1,1 +1,1 @@
-# Etniq_id
+# etniq.id
